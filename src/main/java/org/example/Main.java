@@ -60,7 +60,7 @@ public class Main {
 //            System.out.println();
 //        }
 
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 10; i++) {
             columnData.add(String.valueOf(i), main.getColumnData(i));
         }
         json.add("columnData", columnData);
